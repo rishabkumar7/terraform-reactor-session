@@ -6,6 +6,10 @@ Simple static site deployed to azure storage with Terraform.
 
 HashiCorp Terraform is an infrastructure as code tool that lets you define both cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share.
 
+## Azure Provider in Terraform
+
+The Azure Provider can be used to configure infrastructure in Microsoft Azure using the Azure Resource Manager API's. Read more about the provider [here.](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+
 ## Deploying a Static Website
 
 Here is the main terraform file in which we define the provider first and then the resource group called `terraform-reactor`. We are creating a storage account with the static website and finally, we are adding the index.html content to the blob storage.
