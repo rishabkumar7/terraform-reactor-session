@@ -1,0 +1,5 @@
+location="eastus"
+rg-name="terraform-demo"
+storage-account-name="mystaticsite0980"
+index_document="index.html"
+source_content="<h1>This is static site built with Terraform</h1>"
